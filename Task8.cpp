@@ -31,9 +31,9 @@ void solution(string number) //работа с массивом
 void input() //ввод
 {
 
-    string number; //конвертация числовой переменной в текстовую
+    string number;
     cin >> number;
-    if (number.size() == 12) //подсчет длины(в символах)
+    if (number.size() == 10) //подсчет длины(в символах)
     {
         solution(number);
     }
